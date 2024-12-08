@@ -1,13 +1,13 @@
 # Terms of Service
 
-Effective Date: [Insert Date]
+Effective Date: [09.12.2024]
 
-By using [Your Website Name], you agree to the following Terms of Service ("Terms"). If you do not agree to these Terms, please do not use our service.
+By using CloudNotes, you agree to the following Terms of Service ("Terms"). If you do not agree to these Terms, please do not use our service.
 
 ## 1. User Responsibilities
 You agree to use our service only for lawful purposes and not to engage in any activity that could harm the service or violate the rights of other users.
 
-[Your Website Name] does not take responsibility for any content uploaded by users and is not liable for any damages arising from such content.
+CloudNotes does not take responsibility for any content uploaded by users and is not liable for any damages arising from such content.
 
 ## 2. Account Creation and Security
 You must provide accurate and complete information when creating an account. You are responsible for maintaining the confidentiality of your account information and for all activities under your account.
@@ -31,11 +31,11 @@ By using the service, you also agree to our Privacy Policy, which governs the co
 We reserve the right to modify or update these Terms at any time. Any changes will be posted on this page, and the effective date will be updated accordingly.
 
 ## 8. Governing Law
-These Terms are governed by the laws of [Your Country], and any disputes will be handled in accordance with these laws.
+These Terms are governed by the laws of Germany, and any disputes will be handled in accordance with these laws.
 
-These Terms and any disputes arising out of or related to these Terms will be governed by the laws of [Your Country] and subject to the exclusive jurisdiction of [Your City/Region].
+These Terms and any disputes arising out of or related to these Terms will be governed by the laws of Germany and subject to the exclusive jurisdiction of Hamburg, Hamburg.
 
 ## 9. Contact Information
 If you have any questions about these Terms, please contact us at:
-[Your Email Address]
+[janiejestemja@web.de]
 

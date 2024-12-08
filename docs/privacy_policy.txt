@@ -1,8 +1,8 @@
 # Privacy Policy
 
-Effective Date: [Insert Date]
+Effective Date: [09.12.2024]
 
-At [Your Website Name], we value your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, and safeguard your data in compliance with the General Data Protection Regulation (GDPR).
+At CloudNotes, we value your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, and safeguard your data in compliance with the General Data Protection Regulation (GDPR).
 
 ## 1. Data We Collect
 We collect the following types of data from our users:
@@ -37,6 +37,6 @@ Cookies are small files stored on your device that help us remember your prefere
 
 ## 6. How to Contact Us
 If you have any questions or concerns regarding this Privacy Policy or your data, please contact us at:
-[Your Email Address]
+[janiejestemja@web.de]
 
 By using our services, you agree to this Privacy Policy.
