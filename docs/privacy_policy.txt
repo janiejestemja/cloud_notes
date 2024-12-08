@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Effective Date: [09.12.2024]
+Effective Date: 09.12.2024
 
 At CloudNotes, we value your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, and safeguard your data in compliance with the General Data Protection Regulation (GDPR).
 
@@ -16,7 +16,7 @@ We use the data we collect for the following purposes:
 - To ensure compliance with legal requirements.
 
 ## 3. Data Storage and Security
-Your data is stored on servers located in [Germany/Europe]. We use encryption and security protocols to protect your data from unauthorized access.
+Your data is stored on servers located in Germany/Europe. We use encryption and security protocols to protect your data from unauthorized access.
 
 Data might be processed or stored on servers operated by PythonAnywhere, which are in accordance with data protection standards.
 
@@ -37,6 +37,6 @@ Cookies are small files stored on your device that help us remember your prefere
 
 ## 6. How to Contact Us
 If you have any questions or concerns regarding this Privacy Policy or your data, please contact us at:
-[janiejestemja@web.de]
+janiejestemja@web.de
 
 By using our services, you agree to this Privacy Policy.

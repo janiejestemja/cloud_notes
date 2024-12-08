@@ -1,6 +1,6 @@
 # Terms of Service
 
-Effective Date: [09.12.2024]
+Effective Date: 09.12.2024
 
 By using CloudNotes, you agree to the following Terms of Service ("Terms"). If you do not agree to these Terms, please do not use our service.
 
@@ -37,5 +37,5 @@ These Terms and any disputes arising out of or related to these Terms will be go
 
 ## 9. Contact Information
 If you have any questions about these Terms, please contact us at:
-[janiejestemja@web.de]
+janiejestemja@web.de
 
