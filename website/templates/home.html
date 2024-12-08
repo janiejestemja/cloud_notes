@@ -6,27 +6,29 @@
 <div class="container">
     <p class="lead" align="center">This is the home page</p>
     </br>
-    <div class="row">
+    <div class="row gap-4">
         <p>Welcome to CloudNotes.</p>
     </div>
-    <div class="row gap-2">
+
+    <div class="row gap-4">
         <img src="{{ url_for('static', filename='mandelbrot_placeholder.png')}}" class="img-fluid" alt="...">
         </br>
     </div>
-    <div class="row gap-2">
+
+    <div class="row gap-4">
         <div class="col-md">
             <div class="d-grid">
-                <button class="btn btn-primary" href="{{ url_for('views.download_file') }}">Download Image</button>
+                <a class="btn btn-primary" href="{{ url_for('views.download_file') }}">Download Image</a>
             </div>
         </div>
         <div class="col-md">
             <div class="d-grid">
-                <button class="btn btn-info" href="{{ url_for('views.download_source') }}">Download its Source Code</button>
+                <a class="btn btn-info" href="{{ url_for('views.download_source') }}">Download its Source Code</a>
             </div>
         </div>
     </div>
 
-    <div class="row gap-2">
+    <div class="row gap-4">
         <div class="col-md">
             <p class="text-center">
                 For more information about the Mandelbrot Set, visit the <a href="https://en.wikipedia.org/wiki/Mandelbrot_set" target="_blank">Wikipedia page</a>.
