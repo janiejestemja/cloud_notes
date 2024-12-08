@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Images{% endblock %}
+
+{% block content %}
+<div class="container">
+
+    <h3 class="lead" align="center">This is the images page</h3>
+    </br>
+    <h1 align="center">Images</h1>
+    </br>
+
+    <!-- Display Existing Images -->
+    <ul class="list-group" id="images">
+    {% if images %}
+        {% for img in images %}
+            <li class="list-group-item">
+                <div class="d-grid gap-2">
+                    <img src="{{ img }}" alt="Image" class="img-fluid" />
+                    <a href="{{ img }}" download class="btn btn-primary">Download</a>
+                    <button class="btn btn-danger" onclick="deleteImage('{{ img.split('/')[-1] }}')">Delete</button>
+                </div>
+            </li>
+        {% endfor %}
+    {% else %}
+        <li class="list-group-item" align="center">
+            No images uploaded yet.
+        </li>
+    {% endif %}
+    </ul>
+    </br>
+
+    <!-- File Upload Form -->
+    <form method="POST" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label for="image" class="form-label">Choose an image to upload.</label>
+            <input type="file" name="image" class="form-control">
+        </div>
+        <div align="center">
+            <button type="submit" class="btn btn-primary">Upload</button>
+        </div>
+    </form>
+</div>
+{% endblock %}

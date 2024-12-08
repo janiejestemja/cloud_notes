@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %}Texts{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h3 class="lead" align="center">This is the textfiles page</h3>
+    </br>
+    <h1 align="center">Textfiles</h1>
+    <br/>
+
+    <!-- Display Existing Files -->
+    <table class="table">
+        {% if files %}
+        <tbody>
+            {% for filename in files %}
+            <tr>
+                <td>{{filename}}</td>
+                <td>
+                    <a href="{{ url_for('textfiles.view_textfile', filename=filename) }}">View</a>
+                </td>
+                <td>
+                    <a href="{{ url_for('textfiles.download_textfile', filename=filename) }}">Download</a>
+                </td>
+                <td>
+                    <button class="btn btn-danger" onclick="deleteTextfile('{{ filename }}')">Delete</button>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+        {% else %}
+            <tr>
+                <td colspan="4" align="center">No files uploaded yet.</td>
+            </tr>
+        {% endif %}
+    </table>
+    </br>
+
+    <!-- File Upload Form -->
+    <form method="POST" enctype="multipart/form-data" action="{{ url_for('textfiles.upload_textfile') }}">
+            <div class="mb-3">
+                <label for="file" class="form-label">Choose a textfile to upload.</label>
+                <input type="file" name="file" class="form-control">
+            </div>
+            <div align="center">
+                <button type="submit" class="btn btn-primary">Upload</button>
+            </div>
+    </form>
+
+</div>
+{% endblock %}

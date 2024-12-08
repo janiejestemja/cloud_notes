@@ -1,0 +1,14 @@
+# Introduction
+This platform provides tools for managing notes, images and text files. Below is an overview of the main functionalities.
+## Home
+A place to find updates from the developers of this website.
+## Notes
+A simple and functional notebook designed for keeping track of short notes. If you need to store longer texts, please see the "Texts" section below.
+## Images
+An online repository for images, provides upload, download and deletion of images. Supported file formats: "png", "jpg", "jpeg". Each user is allocated a total of 5 MiB of storage for images.
+## Texts
+An online repository for images, providing options to upload, download, and delete files. Supported file formats include "txt", "odt", "pdf", "py", "rs", "cpp". Each user is allocated a total of 5 MiB of storage for text files.
+## Documents
+This section contains general information and documentation about the platform, including Terms of Service and Privacy Policy.
+## Utility
+This section contains account-related options, including Account Settings and Logout functionality.

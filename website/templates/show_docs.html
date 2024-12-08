@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}Documents{% endblock %}
+
+{% block content %}
+<div class="container">
+
+    <h3 class="lead" align="center">Documents</h3>
+    </br>
+    {% for line in content %}
+        {% if line.startswith("#### ") %}
+        <h4><u>{{line.removeprefix("#### ")}}</u></h4>
+
+        {% elif line.startswith("### ") %}
+        <h3><u>{{line.removeprefix("### ")}}</u></h3>
+
+        {% elif line.startswith("## ") %}
+        <h2><u>{{line.removeprefix("## ")}}</u></h2>
+
+        {% elif line.startswith("# ") %}
+        <h1><u>{{line.removeprefix("# ")}}</u></h1>
+
+        {% else %}
+        <p>{{line}}</p>
+        </br>
+        {% endif %}
+    {% endfor %}
+</div>
+{% endblock %}

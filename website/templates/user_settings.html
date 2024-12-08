@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block title %}Settings{% endblock %}
+
+{% block content %}
+<div class="container">
+  <p class="lead" align="center">This is the user settings page</p>
+  </br>
+  <h1 align="center">Settings</h1>
+  </br>
+  <table class="table">
+    <tbody>
+      <tr>
+        <td>Username</td>
+        <td>{{user.user_name}}</td>
+      </tr>
+      <tr>
+        <td>Email Adress</td>
+        <td>{{user.email}}</td>
+      </tr>
+    </tbody>
+  </table>
+  </br>
+  <form method="POST">
+      <div class="mb-3">
+          <h3 align="center">Delete Account</h3>
+      </div>
+      <div class="form-floating mb-3">
+          <input
+          type="email"
+          class="form-control"
+          id="email"
+          name="email"
+          placeholder="Enter email"
+          />
+          <label for="email">Email Adress</label>
+      </div>
+      <div class="form-floating mb-3">
+          <input
+          type="text"
+          class="form-control"
+          id="user_name"
+          name="user_name"
+          placeholder="Enter username"
+          />
+          <label for="user_name">Username</label>
+      </div>
+      <div class="form-floating mb-3">
+          <input
+          type="password"
+          class="form-control"
+          id="password1"
+          name="password1"
+          placeholder="Enter password"
+          />
+          <label for="password1">Password</label>
+      </div>
+      <div class="form-floating mb-3">
+          <input
+          type="password"
+          class="form-control"
+          id="password2"
+          name="password2"
+          placeholder="Confirm password"
+          />
+          <label for="password2">Password Confirmation</label>
+      </div>
+      <br />
+      <div align="center">
+          <button type="submit" class="btn btn-danger">Delete My Account</button>
+      </div>
+  </form>
+</div>
+{% endblock %}
