@@ -44,7 +44,7 @@ You can generate a secure key using the `secrets` module in Python.
 ### Running the Application Locally
 To run the application locally, use the following command:
 ```bash
-flask run
+python main.py
 ```
 *Your app will be available at http://127.0.0.1:5000/ by default.*
 
@@ -69,8 +69,27 @@ For deployment, this project is hosted on PythonAnywhere. Once deployed, you can
 ```bash
 pip install -r requirements.txt
 ```
-- Set the environment variable SECRET_KEY in the PythonAnywhere dashboard.
-- Configure the web app settings on PythonAnywhere to point to the Flask application.
+- Configure the virtual environment in the Code section below the Web submenu to point to your virtual environment.
+- Configure the working directry in the Code section below the Web submenu to point to your projects directory.
+- Configure the wsgi.py right beneath to point to your projects directory.
+
+### Generating a secret key
+- Generate a safe secret key by using python:
+```python
+import secrets
+print(secrets.token_urlsafe(32))
+```
+
+### Placing the secret key in a safe place
+- Open the Bash Console in your PythonAnywhere Dashboard
+- Edit your `~/.bashrc` file running:
+```bash
+nano ~/.bashrc
+```
+- Add the following line to the file:
+```bash
+export FLASK_SECRET_KEY="placholder_for_secret_key"
+```
 
 ## License
 This project is licensed under the MIT License – see the LICENSE file for details.
