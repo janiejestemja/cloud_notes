@@ -1,4 +1,4 @@
-from os import path
+from os import path, getenv
 
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
@@ -12,7 +12,7 @@ def create_app():
     app = Flask(__name__)
 
     # Encryption of Cookie and Seesion Data
-    app.config["SECRET_KEY"] = "secret_key"
+    app.config["SECRET_KEY"] = getenv("FLASK_SECRET_KEY", "fallback_secret_key")
 
     # Configuration of Database
     app.config["SQLALCHEMY_DATABASE_URI"] = f"sqlite:///{DB_NAME}"
