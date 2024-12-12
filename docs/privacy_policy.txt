@@ -1,26 +1,29 @@
 # Privacy Policy
 
-Effective Date: 09.12.2024
+Effective Date: 12.12.2024
 
 At CloudNotes, we value your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, and safeguard your data in compliance with the General Data Protection Regulation (GDPR).
 
 ## 1. Data We Collect
+
 We collect the following types of data from our users:
-- Personal Identification Information (Name, email address, etc.)
-- Any data you provide when uploading files to our platform.
+- Personal Identification Information: Name, email address, etc.
+- Uploaded Files: Any data you provide when uploading files to our platform.
 
 ## 2. How We Use Your Data
+
 We use the data we collect for the following purposes:
 - To provide and improve our services.
 - To communicate with you, including responding to your inquiries and account management.
 - To ensure compliance with legal requirements.
 
 ## 3. Data Storage and Security
-Your data is stored on servers located in Germany/Europe. We use encryption and security protocols to protect your data from unauthorized access.
 
-Data might be processed or stored on servers operated by PythonAnywhere, which are in accordance with data protection standards.
+Your data is stored on servers located in Germany/Europe. We use encryption and security protocols to protect your data from unauthorized access.
+The servers are operated by PythonAnywhere, a cloud service provider. PythonAnywhere follows data protection standards that are in compliance with GDPR to ensure your data is safely processed and stored. Please refer to their Privacy Policy for more details on how they handle data.
 
 ## 4. Your Rights
+
 Under GDPR, you have the following rights:
 - The right to access your personal data.
 - The right to correct your personal data.
@@ -30,13 +33,20 @@ Under GDPR, you have the following rights:
 You can request your data or the deletion of your data through the application itself.
 
 ## 5. Cookies and Tracking Technologies
-
-This website uses cookies to enhance the user experience. 
+This website uses cookies to enhance the user experience.
 
 Cookies are small files stored on your device that help us remember your preferences, keep you logged in, and improve the overall functionality of the site. By using our website, you consent to the use of cookies. You can control the use of cookies through your browser settings, but please note that disabling cookies may impact your ability to use certain features of the site.
 
-## 6. How to Contact Us
+## 6. Third-Party Services
+
+As mentioned, PythonAnywhere is used to store and process user data. By using CloudNotes, you acknowledge that your data may be processed by PythonAnywhere’s servers.
+
+Additionally, if we integrate any third-party services for processing payments or other features in the future, we will update this Privacy Policy accordingly.
+
+## 7. How to Contact Us
+
 If you have any questions or concerns regarding this Privacy Policy or your data, please contact us at:
-janiejestemja@web.de
+
+Email: janiejestemja@web.de
 
 By using our services, you agree to this Privacy Policy.

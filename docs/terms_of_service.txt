@@ -1,41 +1,59 @@
 # Terms of Service
 
-Effective Date: 09.12.2024
+Effective Date: 12.12.2024
 
 By using CloudNotes, you agree to the following Terms of Service ("Terms"). If you do not agree to these Terms, please do not use our service.
 
 ## 1. User Responsibilities
-You agree to use our service only for lawful purposes and not to engage in any activity that could harm the service or violate the rights of other users.
 
-CloudNotes does not take responsibility for any content uploaded by users and is not liable for any damages arising from such content.
+You agree to use our service for lawful purposes and not engage in activities that harm the service or violate the rights of others.
+You are responsible for ensuring that your use complies with applicable laws and regulations.
+CloudNotes is not responsible for user-uploaded content or any damages arising from such content.
 
 ## 2. Account Creation and Security
-You must provide accurate and complete information when creating an account. You are responsible for maintaining the confidentiality of your account information and for all activities under your account.
+
+You must provide accurate and complete information during account creation.
+You are responsible for securing your account and for activities conducted under your account.
+CloudNotes reserves the right to suspend or terminate accounts for security concerns or Terms violations.
 
 ## 3. Prohibited Activities
+
 You agree not to:
-- Upload or share illegal content.
-- Violate any laws or regulations while using the service.
-- Attempt to access or alter any data not intended for you.
+- Upload illegal or harmful content.
+- Attempt to bypass security measures or access data not intended for you.
+- Misuse the service in ways that degrade its functionality for others.
 
-## 4. Termination of Accounts
-We may suspend or terminate your account for violations of these Terms, prolonged inactivity, or other reasons at our discretion.
+## 4. Payments and Refunds
 
-## 5. Limitation of Liability
-We are not liable for any direct, indirect, incidental, or consequential damages that arise from using our service, including but not limited to the loss of data or content.
+CloudNotes offers optional paid services (e.g., storage upgrades).
+Payments are processed securely via [Placeholder Payment Processor].
+Refunds for paid services are considered on a case-by-case basis and must comply with applicable laws.
 
-## 6. Privacy Policy
-By using the service, you also agree to our Privacy Policy, which governs the collection and use of your data.
+## 5. Optional Support
 
-## 7. Changes to the Terms
-We reserve the right to modify or update these Terms at any time. Any changes will be posted on this page, and the effective date will be updated accordingly.
+You may choose to make voluntary payments to support CloudNotes.
+Tips are non-refundable and do not grant additional services.
 
-## 8. Governing Law
-These Terms are governed by the laws of Germany, and any disputes will be handled in accordance with these laws.
+## 6. Termination of Accounts
 
-These Terms and any disputes arising out of or related to these Terms will be governed by the laws of Germany and subject to the exclusive jurisdiction of Hamburg, Hamburg.
+We may suspend or terminate accounts for violations, inactivity, or at our discretion. Users may terminate their accounts via the application, which will result in the deletion of all associated data.
 
-## 9. Contact Information
-If you have any questions about these Terms, please contact us at:
-janiejestemja@web.de
+## 7. Limitation of Liability
 
+CloudNotes is not liable for direct, indirect, or consequential damages, including loss of data or service interruptions.
+
+## 8. Privacy Policy
+
+By using the service, you agree to our Privacy Policy, which governs the collection and use of your data.
+
+## 9. Changes to the Terms
+
+We may update these Terms at any time. Updates will be posted with an updated Effective Date.
+
+## 10. Governing Law
+
+These Terms are governed by the laws of Germany, with disputes resolved in the courts of Hamburg.
+
+## 11. Contact Information
+
+For questions, contact: janiejestemja@web.de
