@@ -10,12 +10,12 @@
     <br/>
 
     <!-- Display Existing Files -->
-    <table class="table">
+    <table class="table table-striped">
         {% if files %}
         <tbody>
             {% for filename in files %}
             <tr>
-                <td>{{filename}}</td>
+                <td><strong>{{filename}}</strong></td>
                 <td>
                     <a href="{{ url_for('textfiles.view_textfile', filename=filename) }}">View</a>
                 </td>

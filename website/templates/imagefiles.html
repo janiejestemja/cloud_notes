@@ -11,14 +11,27 @@
     </br>
 
     <!-- Display Existing Images -->
-    <ul class="list-group" id="images">
+    <ul class="list-group-flush" id="images">
     {% if images %}
-        {% for img in images %}
+        {% for name, img in images %}
             <li class="list-group-item">
-                <div class="d-grid gap-2">
-                    <img src="{{ img }}" alt="Image" class="img-fluid" />
-                    <a href="{{ img }}" download class="btn btn-primary">Download</a>
-                    <button class="btn btn-danger" onclick="deleteImage('{{ img.split('/')[-1] }}')">Delete</button>
+                <div class="card">
+                    <img src="{{ img }}" alt="Image" class="card-img-top">
+                    <div class="card-body">
+                    <h5>{{name}}</h5>
+                        <div class="row">
+                            <div class="col">
+                                <div class="d-grid gap-2">
+                                    <a href="{{ img }}" download class="btn btn-primary">Download</a>
+                            </div>
+                            </div>
+                            <div class="col">
+                                <div class="d-grid gap-2">
+                                    <button class="btn btn-danger" onclick="deleteImage('{{ img.split('/')[-1] }}')">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </li>
         {% endfor %}

@@ -3,41 +3,83 @@
 {% block title %}CloudNotes Homepage{% endblock %}
 
 {% block content %}
-<div class="container">
+<div class="container-fluid">
     <!--p class="lead" align="center">This is the home page</p-->
     <!--/br-->
     <div class="row gap-4">
         <p>Welcome to CloudNotes.</p>
     </div>
 
-    <div class="row gap-4">
-        <img src="{{ url_for('static', filename='mandelbrot_placeholder.png')}}" class="img-fluid" alt="...">
-        </br>
-    </div>
-
-    <div class="row gap-4">
+    <div class="row">
         <div class="col-md">
-            <div class="d-grid">
-                <a class="btn btn-primary" href="{{ url_for('views.download_file') }}">Download Image</a>
+            <div class="card">
+                <img src="{{ url_for('static', filename='assets/img00.jpg')}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Catch your dreams...</h5>
+                    <p class="card-text">Not only on cloudy days...</p>
+                    <a href="/privacy" class="btn btn-primary">Check privacy policy</a>
+                </div>
             </div>
         </div>
+
         <div class="col-md">
-            <div class="d-grid">
-                <a class="btn btn-info" href="{{ url_for('views.download_source') }}">Download its Source Code</a>
+            <div class="card text-end">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="{{ url_for('static', filename='assets/img01.jpg')}}" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="{{ url_for('static', filename='assets/img02.jpg')}}" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">...in the clouds.</h5>
+                    <p class="card-text">...hidden in plain sight.</p>
+                    <a href="/terms" class="btn btn-primary">Check Terms of Service</a>
+                </div>
             </div>
         </div>
-    </div>
-
-    <div class="row gap-4">
-        <div class="col-md">
-            <p class="text-center">
-                For more information about the Mandelbrot Set, visit the <a href="https://en.wikipedia.org/wiki/Mandelbrot_set" target="_blank">Wikipedia page</a>.
-            </p>
-        </div>
-        <div class="col-md">
-            <p class="text-center">
-                Interested in the source code of this website? Check out the <a href="https://github.com/janiejestemja/cloud_notes" target="_blank">GitHub repository</a>.
-            </p>
+        <div class="col-xl">
+            <div class="card">
+                <img src="{{ url_for('static', filename='mandelbrot_placeholder.png')}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Complex ideas...</h5>
+                    <p class="card-text text-end">...deserve to be easily noted.</p>
+                    <p class="card-text">
+                    Thanks to <del>private</del> for the permission to display your art here on my homepage. I know sharing does not come easy to you...
+                    </p>
+                    <p class="card-text">
+                    This website is in early development. If interested in technical details of its implementation feel free to checkout the <a href="https://github.com/janiejestemja/cloud_notes" target="_blank">GitHub repository</a>.
+                    </p>
+                    </br>
+                    <div class="row">
+                        <div class="col">
+                            <div class="d-grid gap-2">
+                                <a class="btn btn-primary" href="{{ url_for('views.download_file') }}" >Download Image...</a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="d-grid gap-2">
+                                <a class="btn btn-info" href="{{ url_for('views.download_source') }}">...or its Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

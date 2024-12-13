@@ -109,6 +109,7 @@ def delete_textfile():
     if os.path.exists(file_path):
         try:
             os.remove(file_path)
+            flash("Textfile deleted.", category="success")
             return jsonify({"success": True}), 200
         except Exception as e:
             return jsonify({"success": False, "error": str(e)}), 500

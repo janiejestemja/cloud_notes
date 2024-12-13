@@ -1,15 +1,26 @@
-# About Us
+# About Us...
+
+#### English
 
 Welcome to CloudNotes!
 
-CloudNotes was born out of a desire to make it easier for individuals to manage their important digital files – notes, images, and text documents – all in one secure and user-friendly platform. Whether you’re a student trying to organize your coursework, a professional managing documents on the go, or just someone who wants a simple way to store and transfer files between Smartphones and Computers, CloudNotes has got you covered.
+CloudNotes was born out of a desire to make it easier for individuals to manage their digital files – notes, images, and text documents – all in one secure and user-friendly platform. Whether you’re a student trying to organize your coursework, a professional managing documents on the go, or just someone who wants a simple way to store and transfer files between Smartphones and Computers, CloudNotes has got you covered.
 
 Our idea is simple: we want to provide a seamless experience for our users, with a focus on efficiency, privacy and security. CloudNotes allows you to easily upload, store, and access your files, with no complicated steps. We value your data, which is why we store it on secure servers in Germany, ensuring compliance with the data protection standards under the GDPR.
 
-What sets CloudNotes apart is our dedication to our users. As the founder, I believe in creating a service that is built with you in mind. I am constantly working to improve the platform based on your feedback and needs, ensuring that it remains easy to use and truly helpful in managing your digital files. 
-
 At CloudNotes, we believe in both privacy and transparency. That’s why our platform is fully open-source – anyone can access the public repository to see exactly how we handle your data. By combining robust privacy features with full transparency, we aim to create a trustworthy and user-centered service.
 
-Thank you for visiting. 
+Thank you very much for visiting.
 
-We’re excited to be part of your journey in organizing your digital life.
+## Detusch
+
+Willkommen bei CloudNotes!
+
+CloudNotes ist entstanden aus dem Bedürfnis es für Individuen einfach zu machen ihre digitalen Dateien - Notizen, Bilder und Textdokumente - alle auf einer sicheren und benutzerfreundlichen Plattform. Ob Studenten, welche versuchen ihre Aufgaben zu organisieren, Fachkräfte, welche ihre Dokumente unterwegs verwalten, oder einfache Privatpersonen welche einen einfachen Weg wollen Dateien zu speichern und zwischen Smartphones und Computern zu verschieben.
+
+Usere Idee ist einfach: Wir wollen eine nahtlose Erfahrung für unsere Benutzer bieten, mit einem Fokus auf Effizienz, Privatsphäre und Sicherheit. CloudNotes erlaubt Hoch- und Runterladen, simplen Zugang als auch Löschen, ohne Dinge zu verkomplizieren. Wir wertschätzen unsere Daten, weshalb wir sichere Server in Deutschland nutzen, um Datensicherheitsstandarts nach GDPR zu befolgen.
+
+Bei CloudNotes glauben wir an beides, Privatsphäre und Transparenz. Deswegen ist unsere Platform Open-Source - wer auch immer möchte kann ohne weiteres exakt einsehen was mit Benutzerdaten bei uns geschieht. Mit Kombination aus technischer Privatsphäre und voller Transparenz ist unser Ziel die Bereitstellung eines vertrauenswürdigen und benutzerzentrierten Dienstes.
+
+Vielen Dank für den Besuch.
+

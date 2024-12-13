@@ -73,7 +73,7 @@ def images():
 
     # Get list of files in the user's img folder
     image_files = os.listdir(user_dir)
-    image_files = [f"/filesystem/{current_user.id}/img/{img}" for img in image_files]
+    image_files = [(img, f"/filesystem/{current_user.id}/img/{img}") for img in image_files]
 
     return render_template("imagefiles.html", user=current_user, images=image_files)
 
@@ -97,4 +97,5 @@ def delete_image():
         return jsonify({"error": "Invalid file path"}), 403
 
     os.remove(file_path)
+    flash("Imagefile deleted.", category="success")
     return jsonify({"success": True}), 200

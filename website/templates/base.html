@@ -28,17 +28,12 @@
                         <li><a class="dropdown-item" href="/about_us">About Us</a></li>
                     </ul>
                 </li>
-                <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Utility</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" id="user_settings" href="/user_settings">Settings</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="/logout">Logout</a></li>
-                    </ul>
-                </li>
+                <a class="nav-item nav-link" id="user_settings" href="/user_settings">Settings</a>
+                <a class="nav-item nav-link" id="logout" href="/logout">Logout</a>
                 {% else %}
                 <a class="nav-item nav-link" id="login" href="/login">Login</a>
                 <a class="nav-item nav-link" id="sign_up" href="/sign_up">Sign Up</a>
+                <a class="nav-item nav-link" href="/about_us">About Us</a>
                 {% endif %}
             </div>
         </div>
