@@ -1,6 +1,11 @@
-# Terms of Service
+# This is a private website.
+It exists purely for private autodidactic learning-purposes and nothing else.
+Thus the following Terms of Service are not meant to be a legal document,
+but a placeholder instead. It is just a more entertaining read than lorem ipsum...
 
-Effective Date: 12.12.2024
+## Terms of Service
+
+Effective Date: 17.12.2024
 
 By using CloudNotes, you agree to the following Terms of Service ("Terms"). If you do not agree to these Terms, please do not use our service.
 

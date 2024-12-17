@@ -1,12 +1,17 @@
-# Privacy Policy
+# This is a private website.
+It exists purely for private autodidactic learning-purposes and nothing else.
+Thus the following privacy policy is not meant to be a legal document,
+but a placeholder instead. It is just a more entertaining read than lorem ipsum...
 
-Effective Date: 12.12.2024
+## Privacy Policy
+
+Effective Date: 17.12.2024
 
 At CloudNotes, we value your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, and safeguard your data in compliance with the General Data Protection Regulation (GDPR).
 
 ## 1. Data We Collect
 
-We collect the following types of data from our users:
+We collect the following types of data from our users on voluntary bases:
 - Personal Identification Information: Name, email address, etc.
 - Uploaded Files: Any data you provide when uploading files to our platform.
 

@@ -1,4 +1,6 @@
 # About Us...
+This is a private website.
+It exists purely for private autodidactic learning-purposes and nothing else.
 
 #### English
 
@@ -12,13 +14,13 @@ At CloudNotes, we believe in both privacy and transparency. That’s why our pla
 
 Thank you very much for visiting.
 
-## Detusch
+#### Detusch
 
 Willkommen bei CloudNotes!
 
 CloudNotes ist entstanden aus dem Bedürfnis es für Individuen einfach zu machen ihre digitalen Dateien - Notizen, Bilder und Textdokumente - alle auf einer sicheren und benutzerfreundlichen Plattform. Ob Studenten, welche versuchen ihre Aufgaben zu organisieren, Fachkräfte, welche ihre Dokumente unterwegs verwalten, oder einfache Privatpersonen welche einen einfachen Weg wollen Dateien zu speichern und zwischen Smartphones und Computern zu verschieben.
 
-Usere Idee ist einfach: Wir wollen eine nahtlose Erfahrung für unsere Benutzer bieten, mit einem Fokus auf Effizienz, Privatsphäre und Sicherheit. CloudNotes erlaubt Hoch- und Runterladen, simplen Zugang als auch Löschen, ohne Dinge zu verkomplizieren. Wir wertschätzen unsere Daten, weshalb wir sichere Server in Deutschland nutzen, um Datensicherheitsstandarts nach GDPR zu befolgen.
+Usere Idee ist einfach: Wir wollen eine nahtlose Erfahrung für unsere Benutzer bieten, mit einem Fokus auf Effizienz, Privatsphäre und Sicherheit. CloudNotes erlaubt Hoch- und Runterladen, simplen Zugang als auch Löschen, ohne Dinge zu verkomplizieren. Wir schätzen unsere Daten wert, weshalb wir sichere Server in Deutschland nutzen, um Datensicherheitsstandarts nach GDPR zu befolgen.
 
 Bei CloudNotes glauben wir an beides, Privatsphäre und Transparenz. Deswegen ist unsere Platform Open-Source - wer auch immer möchte kann ohne weiteres exakt einsehen was mit Benutzerdaten bei uns geschieht. Mit Kombination aus technischer Privatsphäre und voller Transparenz ist unser Ziel die Bereitstellung eines vertrauenswürdigen und benutzerzentrierten Dienstes.
 
